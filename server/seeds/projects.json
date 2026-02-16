@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Aurex: High Performance E-Commerce Platform",
+    "description": "Lead Full Stack Developer - A modular e-commerce platform with Role-Based Access Control supporting 2,500+ concurrent users.",
+    "longDescription": "Architected a modular system using React and Node with Role Based Access Control, securing data for 2,500 plus potential concurrent user sessions. Orchestrated payment processing by integrating Stripe API, achieving 99.9 percent transaction reliability across multi-currency orders. Optimized database performance through MongoDB indexing and aggregation, resulting in a 38 percent reduction in API response times. Engineered a real-time Admin Dashboard that automated inventory tracking, reducing manual stock management efforts by 50 percent. Leveraged Cloudinary CDN for automated asset optimization, improving initial page load performance by 1.5 seconds on average.",
+    "tech": ["React", "Node.js", "Express", "MongoDB", "Stripe", "Cloudinary", "Redux", "Tailwind CSS","bcryptjs","Mongoose",
+      "JWT",
+      "Zod",
+      "cookie-parser"],
+    "featured": true,
+    "category": "fullstack",
+    "order": 1,
+    "image": "/Aurex.png",
+    "liveUrl": "https://e-commerce-frontend-five-khaki.vercel.app/",
+    "githubUrl": "https://github.com/harsh-kumar-pandit"
+  },
+  {
+    "title": "Course Selling Platform — Backend API",
+    "description": "A secure REST API backend for a course selling platform with dual-role authentication (Admin & User), course management, and purchase flow.",
+    "longDescription": "Built a production-ready backend system for a course selling platform using Express.js and MongoDB. Implemented dual-role JWT authentication for both users and admins with separate signup and login flows. Admins can create and manage courses while users can browse, preview, and purchase them. Used Zod for strict schema validation on all incoming requests to ensure data integrity. Secured all routes with role-based middleware to prevent unauthorized access. The system handles course creation, preview, and purchase endpoints with clean MVC architecture.",
+    "tech": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Zod",
+      "bcryptjs",
+      "cookie-parser"
+    ],
+    "featured": true,
+    "category": "backend",
+    "order": 2,
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Harsh-Kumar-Pandit/course-selling-"
+  },
+  {
+    "title": "Real Estate Landing Page",
+    "description": "A responsive real estate frontend with smooth animations, property listings, testimonials, and a contact section — built with React, Vite, and Tailwind CSS.",
+    "longDescription": "Designed and developed a fully responsive real estate website featuring a dynamic hero section, property showcase, testimonials carousel, and contact form. Built with React and Vite for lightning-fast performance, styled with Tailwind CSS for a clean and modern UI. Implemented smooth scroll animations using Motion library and toast notifications via React Toastify. Followed a modular component architecture with centralized asset management for images and data. Deployed on Vercel for instant global delivery.",
+    "tech": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Motion",
+      "React Toastify"
+    ],
+    "featured": true,
+    "category": "frontend",
+    "order": 2,
+    "image": "/RealEstate.png",
+    "liveUrl": "https://real-estate-frontend-bay-ten.vercel.app/",
+    "githubUrl": "https://github.com/Harsh-Kumar-Pandit/real-estate-frontend"
+  }
+]
