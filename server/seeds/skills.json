@@ -1,83 +1,35 @@
 [
   {
-    "name": "JavaScript ES6",
+    "name": "JavaScript",
     "level": 95,
-    "category": "frontend",
+    "category": "languages",
     "icon": "JS",
     "color": "#F7DF1E",
     "order": 1
   },
   {
-    "name": "React",
+    "name": "Python",
+    "level": 50,
+    "category": "languages",
+    "icon": "Python",
+    "color": "#3776AB",
+    "order": 2
+  },
+  {
+    "name": "Java",
+    "level": 75,
+    "category": "languages",
+    "icon": "Java",
+    "color": "#007396",
+    "order": 3
+  },
+  {
+    "name": "React.js",
     "level": 90,
     "category": "frontend",
     "icon": "React",
     "color": "#61DAFB",
-    "order": 2
-  },
-  {
-    "name": "Node.js",
-    "level": 92,
-    "category": "backend",
-    "icon": "Node",
-    "color": "#68A063",
-    "order": 3
-  },
-  {
-    "name": "Express.js",
-    "level": 92,
-    "category": "backend",
-    "icon": "Express",
-    "color": "#000000",
     "order": 4
-  },
-  {
-    "name": "MongoDB",
-    "level": 88,
-    "category": "database",
-    "icon": "MongoDB",
-    "color": "#13AA52",
-    "order": 5
-  },
-  {
-    "name": "Mongoose",
-    "level": 88,
-    "category": "database",
-    "icon": "Mongoose",
-    "color": "#880000",
-    "order": 6
-  },
-  {
-    "name": "JWT Authentication",
-    "level": 90,
-    "category": "backend",
-    "icon": "JWT",
-    "color": "#000000",
-    "order": 7
-  },
-  {
-    "name": "REST APIs",
-    "level": 92,
-    "category": "backend",
-    "icon": "REST",
-    "color": "#FF5733",
-    "order": 8
-  },
-  {
-    "name": "Stripe Integration",
-    "level": 85,
-    "category": "backend",
-    "icon": "Stripe",
-    "color": "#635BFF",
-    "order": 9
-  },
-  {
-    "name": "Razorpay Integration",
-    "level": 85,
-    "category": "backend",
-    "icon": "Razorpay",
-    "color": "#01B5E3",
-    "order": 10
   },
   {
     "name": "Tailwind CSS",
@@ -85,7 +37,15 @@
     "category": "frontend",
     "icon": "Tailwind",
     "color": "#06B6D4",
-    "order": 11
+    "order": 5
+  },
+  {
+    "name": "HTML5 & CSS3",
+    "level": 92,
+    "category": "frontend",
+    "icon": "HTML",
+    "color": "#E34C26",
+    "order": 6
   },
   {
     "name": "Context API",
@@ -93,31 +53,55 @@
     "category": "frontend",
     "icon": "React",
     "color": "#61DAFB",
+    "order": 7
+  },
+  {
+    "name": "React Router",
+    "level": 85,
+    "category": "frontend",
+    "icon": "React",
+    "color": "#61DAFB",
+    "order": 8
+  },
+  {
+    "name": "Vite",
+    "level": 85,
+    "category": "frontend",
+    "icon": "Vite",
+    "color": "#646CFF",
+    "order": 9
+  },
+  {
+    "name": "Node.js",
+    "level": 92,
+    "category": "backend",
+    "icon": "Node",
+    "color": "#68A063",
+    "order": 10
+  },
+  {
+    "name": "Express.js",
+    "level": 92,
+    "category": "backend",
+    "icon": "Express",
+    "color": "#000000",
+    "order": 11
+  },
+  {
+    "name": "REST APIs",
+    "level": 92,
+    "category": "backend",
+    "icon": "REST",
+    "color": "#FF5733",
     "order": 12
   },
   {
-    "name": "Redux",
-    "level": 80,
-    "category": "frontend",
-    "icon": "Redux",
-    "color": "#764ABC",
+    "name": "JWT Authentication",
+    "level": 90,
+    "category": "backend",
+    "icon": "JWT",
+    "color": "#000000",
     "order": 13
-  },
-  {
-    "name": "MySQL",
-    "level": 80,
-    "category": "core",
-    "icon": "MySQL",
-    "color": "#005C84",
-    "order": 14
-  },
-  {
-    "name": "Data Structures & Algorithms",
-    "level": 40,
-    "category": "languages",
-    "icon": "DSA",
-    "color": "#FF6B35",
-    "order": 15
   },
   {
     "name": "Zod Validation",
@@ -125,15 +109,87 @@
     "category": "backend",
     "icon": "Zod",
     "color": "#3E67B1",
+    "order": 14
+  },
+  {
+    "name": "Bcrypt",
+    "level": 85,
+    "category": "backend",
+    "icon": "Security",
+    "color": "#555555",
+    "order": 15
+  },
+  {
+    "name": "Socket.io",
+    "level": 85,
+    "category": "backend",
+    "icon": "Socket",
+    "color": "#010101",
     "order": 16
   },
   {
-    "name": "Cloudinary CDN",
+    "name": "MongoDB",
+    "level": 88,
+    "category": "database",
+    "icon": "MongoDB",
+    "color": "#13AA52",
+    "order": 17
+  },
+  {
+    "name": "Mongoose",
+    "level": 88,
+    "category": "database",
+    "icon": "Mongoose",
+    "color": "#880000",
+    "order": 18
+  },
+  {
+    "name": "Stripe",
+    "level": 85,
+    "category": "backend",
+    "icon": "Stripe",
+    "color": "#635BFF",
+    "order": 19
+  },
+  {
+    "name": "Razorpay",
+    "level": 85,
+    "category": "backend",
+    "icon": "Razorpay",
+    "color": "#01B5E3",
+    "order": 20
+  },
+  {
+    "name": "Cloudinary",
     "level": 85,
     "category": "devops",
     "icon": "Cloudinary",
     "color": "#3448C5",
-    "order": 17
+    "order": 21
+  },
+  {
+    "name": "Vercel",
+    "level": 85,
+    "category": "devops",
+    "icon": "Vercel",
+    "color": "#000000",
+    "order": 22
+  },
+  {
+    "name": "Render",
+    "level": 85,
+    "category": "devops",
+    "icon": "Render",
+    "color": "#0099FF",
+    "order": 23
+  },
+  {
+    "name": "Railway",
+    "level": 85,
+    "category": "devops",
+    "icon": "Railway",
+    "color": "#0B0D0E",
+    "order": 24
   },
   {
     "name": "Git & GitHub",
@@ -141,7 +197,7 @@
     "category": "tools",
     "icon": "GitHub",
     "color": "#181717",
-    "order": 18
+    "order": 25
   },
   {
     "name": "Postman",
@@ -149,47 +205,23 @@
     "category": "tools",
     "icon": "Postman",
     "color": "#FF6C37",
-    "order": 19
+    "order": 26
   },
   {
-    "name": "Bash Scripting",
-    "level": 80,
+    "name": "VS Code",
+    "level": 90,
     "category": "tools",
-    "icon": "Bash",
-    "color": "#4EAA25",
-    "order": 20
+    "icon": "VSCode",
+    "color": "#007ACC",
+    "order": 27
   },
   {
-    "name": "Python 3",
-    "level": 50,
-    "category": "languages",
-    "icon": "Python",
-    "color": "#3776AB",
-    "order": 21
-  },
-  {
-    "name": "Java 8",
-    "level": 75,
-    "category": "languages",
-    "icon": "Java",
-    "color": "#007396",
-    "order": 22
-  },
-  {
-    "name": "HTML5 & CSS3",
-    "level": 92,
-    "category": "frontend",
-    "icon": "HTML",
-    "color": "#E34C26",
-    "order": 23
-  },
-  {
-    "name": "HTML5 & CSS3",
-    "level": 92,
-    "category": "languages",
-    "icon": "HTML",
-    "color": "#E34C26",
-    "order": 23
+    "name": "Data Structures & Algorithms",
+    "level": 40,
+    "category": "core",
+    "icon": "DSA",
+    "color": "#FF6B35",
+    "order": 28
   },
   {
     "name": "Operating Systems",
@@ -197,7 +229,7 @@
     "category": "core",
     "icon": "OS",
     "color": "#316192",
-    "order": 24
+    "order": 29
   },
   {
     "name": "DBMS",
@@ -205,6 +237,14 @@
     "category": "core",
     "icon": "DB",
     "color": "#336791",
-    "order": 25
+    "order": 30
+  },
+  {
+    "name": "OOP",
+    "level": 85,
+    "category": "core",
+    "icon": "OOP",
+    "color": "#6A5ACD",
+    "order": 31
   }
 ]

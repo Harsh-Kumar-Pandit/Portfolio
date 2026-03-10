@@ -15,6 +15,31 @@
     "githubUrl": "https://github.com/harsh-kumar-pandit"
   },
   {
+  "title": "NexChat: Real-Time Messaging Platform",
+  "description": "Lead Full Stack Developer - A real-time chat application supporting instant messaging, group channels, and secure authentication.",
+  "longDescription": "Developed a scalable real-time messaging platform using React and Node.js with Socket.io enabling instant message synchronization across users. Implemented direct messaging and group channels with event-driven architecture for low-latency communication. Engineered secure authentication using JWT with HTTP-only cookies and bcrypt password hashing to protect user sessions. Built file and image sharing functionality with upload progress tracking and Cloudinary cloud storage integration. Designed responsive UI components using Tailwind CSS to ensure consistent performance across devices.",
+  "tech": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Socket.io",
+    "Tailwind CSS",
+    "Zustand",
+    "JWT",
+    "bcryptjs",
+    "Mongoose",
+    "Cloudinary",
+    "cookie-parser"
+  ],
+  "featured": true,
+  "category": "fullstack",
+  "order": 2,
+  "image": "/NexChat.png",
+  "liveUrl": "https://nex-chat-real-time-chatting.vercel.app/chat",
+  "githubUrl": "https://github.com/Harsh-Kumar-Pandit/Nex-Chat-Real-Time-Chatting"
+},
+  {
     "title": "Course Selling Platform — Backend API",
     "description": "A secure REST API backend for a course selling platform with dual-role authentication (Admin & User), course management, and purchase flow.",
     "longDescription": "Built a production-ready backend system for a course selling platform using Express.js and MongoDB. Implemented dual-role JWT authentication for both users and admins with separate signup and login flows. Admins can create and manage courses while users can browse, preview, and purchase them. Used Zod for strict schema validation on all incoming requests to ensure data integrity. Secured all routes with role-based middleware to prevent unauthorized access. The system handles course creation, preview, and purchase endpoints with clean MVC architecture.",
@@ -30,7 +55,7 @@
     ],
     "featured": true,
     "category": "backend",
-    "order": 2,
+    "order": 4,
     "image": "",
     "liveUrl": "",
     "githubUrl": "https://github.com/Harsh-Kumar-Pandit/course-selling-"
@@ -48,7 +73,7 @@
     ],
     "featured": true,
     "category": "frontend",
-    "order": 2,
+    "order": 3,
     "image": "/RealEstate.png",
     "liveUrl": "https://real-estate-frontend-bay-ten.vercel.app/",
     "githubUrl": "https://github.com/Harsh-Kumar-Pandit/real-estate-frontend"
