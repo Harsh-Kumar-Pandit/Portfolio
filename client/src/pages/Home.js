@@ -113,8 +113,8 @@ developer.build("amazing things");`}
         </div>
         {projLoading ? (
           <Loader />
-        ) : projects.length > 0 ? (
-          <div className="projects-grid">
+: projects?.length > 0 ? (
+  <div className="projects-grid">
             {projects.map((project, i) => (
               <ProjectCard key={project._id} project={project} index={i} />
             ))}
