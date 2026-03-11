@@ -42,7 +42,7 @@ const Home = () => {
     return () => clearTimeout(timeout);
   }, [charIndex, deleting, roleIndex]);
 
-  const topSkills = skills.slice(0, 6);
+  const topSkills = skills?.slice(0, 6) || [];
 
   return (
     <div className="page home-page">
