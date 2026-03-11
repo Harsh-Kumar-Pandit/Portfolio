@@ -10,7 +10,7 @@ export const useProjects = (params = {}) => {
     try {
       setLoading(true);
       const res = await projectsAPI.getAll(params);
-      setProjects(res.data.data);
+      setProjects(res?.data?.data || []);
     } catch (err) {
       setError(err.message);
     } finally {
