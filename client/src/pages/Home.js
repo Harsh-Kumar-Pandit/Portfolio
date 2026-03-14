@@ -113,6 +113,7 @@ developer.build("amazing things");`}
         </div>
         {projLoading ? (
           <Loader />
+          )
 : projects?.length > 0 ? (
   <div className="projects-grid">
             {projects.map((project, i) => (
